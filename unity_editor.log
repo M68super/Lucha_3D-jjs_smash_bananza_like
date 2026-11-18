@@ -1,0 +1,28 @@
+VBCSCompilerServerWatchdog: watching VBCSCompiler (PID 14312)
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Connection to channel LicenseClient-songo refused
+Built from '6000.3/respin/6000.3.28f1-21f78c3e21d1' branch; Version is '6000.3.28f1 (8f082d2fe476) revision 9373741'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) Core' Language: 'es' Physical Memory: 15868 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-10T17:20:16Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 22084)
+Assertion failed on expression: 'SUCCEEDED(hr)'
+Assertion failed on expression: 'wmiOpened'
+Assertion failed on expression: 'ERROR_SUCCESS == status'
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.28f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+c:\Users\songo\Lucha_3D-jjs_smash_bananza_like
+-executeMethod
+Lucha3D.Editor.ArenaSceneBuilder.BuildSceneFromCommandLine
+-logFile
+c:\Users\songo\Lucha_3D-jjs_smash_bananza_like\unity_editor.log
+-quit
+Successfully changed project path to: c:\Users\songo\Lucha_3D-jjs_smash_bananza_like
+C:/Users/songo/Lucha_3D-jjs_smash_bananza_like
+Exiting without the bug reporter. Application will terminate with return code 1
